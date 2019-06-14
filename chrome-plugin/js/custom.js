@@ -148,7 +148,7 @@ function loadSettings() {
 }
 
 function getAPIURL() {
-  api = 'http://';
+  api = 'https://';
   if( typeof( localStorage['ydlcpServer'] ) == 'undefined' ) {
     api += 'localhost';
   } else {
